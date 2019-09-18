@@ -3,33 +3,6 @@ CaptainHook extension adding customized hooks
 
 Thanks for the amazing work made by CaptainHook ( https://github.com/CaptainHookPhp/captainhook ) by sebastianfeldmann!
 
-## Installation
-
-Add the dependency to your `composer.json`:
-
-    {
-      ...
-      "require-dev": {
-        ...
-        "hevelop/hevelophook": "dev-master",
-        ...
-      },
-      "repositories": [
-        ...
-        {
-          "type": "vcs",
-          "url":  "git@github.com:Hevelop/hevelophook.git"
-        },
-        ...
-      ],
-      ...
-    }
-
-Use *Composer* to install *HevelopHook*.
-```bash
-    $ composer require --dev hevelop/hevelophook
-```
-
 ## Setup
 After installing HevelopHook you can use the *hevelophook* executable to create a configuration.
 ```bash
