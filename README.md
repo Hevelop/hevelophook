@@ -11,7 +11,7 @@ Add the dependency to your `composer.json`:
       ...
       "require-dev": {
         ...
-        "davidelunardon/hevelophook": "dev-master",
+        "hevelop/hevelophook": "dev-master",
         ...
       },
       "repositories": [
@@ -27,7 +27,7 @@ Add the dependency to your `composer.json`:
 
 Use *Composer* to install *HevelopHook*.
 ```bash
-    $ composer require --dev Hevelop/hevelophook
+    $ composer require --dev hevelop/hevelophook
 ```
 
 ## Setup
