@@ -1,0 +1,43 @@
+{
+  "name": "Hevelop/hevelophook",
+  "description": "Captainhook extension adding custom hooks",
+  "type": "library",
+  "keywords": ["git", "hooks", "pre-commit", "pre-push", "commit-msg", "captainhook"],
+  "homepage": "git@github.com:Hevelop/hevelophook.git",
+  "license": "OSL-3.0",
+  "authors": [
+    {
+      "name": "Davide Lunardon",
+      "email": "davide.lunardon@hevelop.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "HevelopHook\\App\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "ext-json": "*",
+    "ext-spl": "*",
+    "sebastianfeldmann/cli": "^2.1",
+    "sebastianfeldmann/git": "^1.0.7",
+    "symfony/console": ">=2.7",
+    "captainhook/captainhook": "^3.1"
+  },
+  "require-dev": {
+    "composer/composer": "~1",
+    "phpunit/phpunit": "^6.5"
+  },
+  "bin": [
+    "hevelophook"
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "\\HevelopHookManager\\App\\Composer\\Cmd::hevelopconfigure"
+    ]
+  },
+  "suggest": {
+    "your git hooks": "run 'vendor/bin/captainhook configure && vendor/bin/hevelophook hevelopconfigure' to set up your hook configuration"
+  }
+}
