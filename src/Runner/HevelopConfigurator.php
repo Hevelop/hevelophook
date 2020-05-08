@@ -2,12 +2,12 @@
 
 namespace HevelopHookManager\App\Runner;
 
-use CaptainHook\App\Config;
-use CaptainHook\App\Console\IOUtil;
-use CaptainHook\App\Hook\Util;
-use CaptainHook\App\Runner;
-use CaptainHook\App\Storage\File\Json;
-use CaptainHook\App\Runner\Configurator as CaptainHookConfigurator;
+use \CaptainHook\App\Config;
+use \CaptainHook\App\Console\IOUtil;
+use \CaptainHook\App\Hook\Util;
+use \CaptainHook\App\Runner;
+use \CaptainHook\App\Storage\File\Json;
+use \CaptainHook\App\Runner\Configurator as CaptainHookConfigurator;
 
 /**
  * Class HevelopConfigurator

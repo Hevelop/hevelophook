@@ -2,11 +2,11 @@
 
 namespace HevelopHookManager\App\Console\Command;
 
-use HevelopHookManager\App\Runner\HevelopConfigurator;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Output\OutputInterface;
-use CaptainHook\App\Console\Command\Base as CaptainHookBase;
+use \HevelopHookManager\App\Runner\HevelopConfigurator;
+use \Symfony\Component\Console\Input\InputInterface;
+use \Symfony\Component\Console\Input\InputOption;
+use \Symfony\Component\Console\Output\OutputInterface;
+use \CaptainHook\App\Console\Command\Base as CaptainHookBase;
 
 /**
  * Class HevelopConfiguration

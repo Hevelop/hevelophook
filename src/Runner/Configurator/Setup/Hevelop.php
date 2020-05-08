@@ -2,11 +2,11 @@
 
 namespace HevelopHookManager\App\Runner\Configurator\Setup;
 
-use CaptainHook\App\Config;
-use CaptainHook\App\Console\IOUtil;
-use CaptainHook\App\Hooks;
-use CaptainHook\App\Runner\Configurator\Setup as CaptainHookSetup;
-use CaptainHook\App\Runner\Configurator\Setup\Express as CaptainHookExpress;
+use \CaptainHook\App\Config;
+use \CaptainHook\App\Console\IOUtil;
+use \CaptainHook\App\Hooks;
+use \CaptainHook\App\Runner\Configurator\Setup as CaptainHookSetup;
+use \CaptainHook\App\Runner\Configurator\Setup\Express as CaptainHookExpress;
 
 /**
  * Class Hevelop

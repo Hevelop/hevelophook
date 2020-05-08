@@ -2,9 +2,9 @@
 
 namespace HevelopHookManager\App\Console\Application;
 
-use CaptainHook\App\Console\Application;
-use HevelopHookManager\App\Console\Command as Cmd;
-use CaptainHook\App\Console\Application\Setup as CaptainHookSetup;
+use \CaptainHook\App\Console\Application;
+use \HevelopHookManager\App\Console\Command as Cmd;
+use \CaptainHook\App\Console\Application\Setup as CaptainHookSetup;
 
 /**
  * Class HevelopSetup
