@@ -3,7 +3,6 @@
   "description": "Captainhook extension adding custom hooks",
   "type": "library",
   "keywords": ["git", "hooks", "pre-commit", "pre-push", "commit-msg", "captainhook"],
-  "homepage": "git@github.com:Hevelop/hevelophook.git",
   "license": "OSL-3.0",
   "authors": [
     {
